@@ -1,0 +1,120 @@
+<main>
+    <h1>Daftar Transaksi</h1>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Nama Transaksi</th>
+                <th>Jumlah</th>
+                <th>Kategori</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Peminjaman Buku</td>
+                <td>3</td>
+                <td>Peminjaman</td>
+            </tr>
+            <tr>
+                <td>Pengembalian Buku</td>
+                <td>2</td>
+                <td>Pengembalian</td>
+            </tr>
+            <!-- Tambahkan data transaksi lainnya di sini -->
+        </tbody>
+    </table>
+</main>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    thead tr {
+        background-color: #007BFF;
+        color: white;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 12px;
+        border: 1px solid #ddd;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+        background-color: #f0f0f0;
+        cursor: pointer;
+    }
+
+    th {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    td {
+        font-size: 14px;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #007BFF;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #0056b3;
+    }
+
+    /* Responsif */
+    @media (max-width: 768px) {
+        main {
+            margin: 20px;
+            padding: 15px;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        table {
+            font-size: 12px;
+        }
+
+        th, td {
+            padding: 8px;
+        }
+    }
+</style>
